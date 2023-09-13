@@ -7,7 +7,7 @@ inputs: # Paramètre d'entrées
     default: 'World'
 outputs: # Paramètres de sorties
   time: # Nom du paramètre
-    description: 'L'heure à laquelle on a salué'
+    description: "L'heure à laquelle on a salué"
 runs:
   using: 'node16'
   main: 'index.js'
