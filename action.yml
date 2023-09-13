@@ -9,5 +9,5 @@ outputs: # Paramètres de sorties
   time: # Nom du paramètre
     description: 'L'heure à laquelle on a salué'
 runs:
-  using: 'node18'
+  using: 'node16'
   main: 'index.js'
