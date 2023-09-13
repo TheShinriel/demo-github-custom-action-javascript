@@ -1,0 +1,13 @@
+name: 'Hello World'
+description: 'Greet someone and record the time'
+inputs: # Paramètre d'entrées
+  name: # Nom du paramètre
+    description: 'Celui à saluer'
+    required: true
+    default: 'World'
+outputs: # Paramètres de sorties
+  time: # Nom du paramètre
+    description: 'L'heure à laquelle on a salué'
+runs:
+  using: 'node18'
+  main: 'index.js'
